@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>Formulário</title>
+</head>
+<body>
+    <div class="fundo">
+    <div class="container">
+        <div class="header">
+            <h2>Crie uma conta</h2>
+        </div>
+
+        <form id="form" class="form">
+            <div class="form-control ">
+                <label for="username">Nome de usuário</label>
+                <input
+                type="text"
+                id="username"
+                placeholder="Digite um nome de usuário..."/>
+                <i class="fa-sharp fa-solid fa-circle-exclamation fa-beat" style="color: #f50000;"></i>
+                <i class="fa-solid fa-circle-check fa-fade" style="color: #097716;"></i>
+                <small>Mensagem de erro!</small>
+            </div>
+
+            <div class="form-control ">
+                <label for="email">Email</label>
+                <input
+                type="text"
+                id="email"
+                placeholder="Digite seu email..."/>
+                <i class="fa-sharp fa-solid fa-circle-exclamation fa-beat" style="color: #f50000;"></i>
+                <i class="fa-solid fa-circle-check fa-fade" style="color: #097716;"></i>
+                <small>Mensagem de erro!</small>
+            </div>
+
+            <div class="form-control">
+                <label for="password">Senha</label>
+                <input
+                type="password"
+                id="password"
+                placeholder="Digite sua senha..."
+                />
+                <i class="fa-sharp fa-solid fa-circle-exclamation fa-beat" style="color: #f50000;"></i>
+                <i class="fa-solid fa-circle-check fa-fade" style="color: #097716;"></i>
+                <small>Mensagem de erro!</small>
+            </div>
+
+            <div class="form-control">
+                <label for="password-confirmation">Confirmação de senha</label>
+                <input
+                type="password"
+                id="password-confirmation"
+                placeholder="Confirme a sua senha..."
+                />
+                <i class="fa-sharp fa-solid fa-circle-exclamation fa-beat" style="color: #f50000;"></i>
+                <i class="fa-solid fa-circle-check fa-fade" style="color: #097716;"></i>
+                <small>Mensagem de erro!</small>
+
+                
+                </div>
+                <button type="submit">Enviar</button>
+        </form>
+        
+        <div class="Confirme" id="Confirme"></div>
+    </div>
+</div>
+    <script
+    src="https://kit.fontawesome.com/8b1ab53edc.js"
+    crossorigin="anonymous"
+    ></script>    
+    <script src="./script.js"></script>
+</body>
+</html>
